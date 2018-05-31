@@ -1,0 +1,13 @@
+body{
+	background: #888;
+	h1{
+		display: flex;
+	}
+	ul{
+		list-style: none;
+		display: flex;
+		>li{
+			flex-basis: 50%;
+		}
+	}
+}
